@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title> Rinku's Zoo </title>
+        <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+        <link rel = "stylesheet" href = "main.css" type = "text/css"> 
+        <script src="main.js"></script>
+        <script src="form.js"></script>
+    </head>
+    <nav>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="home.html">Information</a></li>
+            <li><a href="Calendar.html">Calendar</a></li>
+            <li><a href="online.html">Online Catalogue</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="kids.html">Kids Zoo</a></li>
+            
+
+        </ul>
+    </nav>
+   
+  <br>
+  <script src="form.js"></script>
+  <style>
+    #start {
+        display:block;  
+    }
+    #next {
+        display:none;
+    }
+    #sbutton {
+        display:none;
+    }
+    #results {
+        display:none;
+    }
+    #textbox {
+        display: block;
+    }
+</style>
+</head>
+<form action="welcome.html" name="Myform" method="get">
+<button type="button" id="start" value="start" onclick="myform()">Start survey</button>
+<div id="question"></div>
+<div id="textbox"></div> 
+<button type="button" id="next" onclick="myform()">Next</button>
+<button type="button" id="results" 
+        onclick="display()">results</button>
+
+<input type="submit" action="welcome.html" id="sbutton" value="submit" >
+</form>
+
+<div id="answers"></div>
+
+<p id="qcontent">
+
+</p>
+
+</body>
+</html>

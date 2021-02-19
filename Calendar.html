@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> Rinku's Zoo </title>
+        <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+        <link rel = "stylesheet" href = "main.css" type = "text/css"> 
+        <script src="main.js"></script>
+    </head>
+    <body  <body onLoad = "showDateTime();"></body>
+          
+    </body>
+    <nav>
+        <ul> 
+            <li><a href="index.html">Index</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="home.html">Information</a></li>
+            <li><a href="Calendar.html">Calendar</a></li>
+            <li><a href="online.html">Online Catalogue</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="kids.html">Kids Zoo</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Animal Worlds</a>
+                <div class="dropdown-content">
+                    <a href="farmanimals.html">Farm Animal</a>
+                    <a href="africaworld.html">Africa World</a>
+                    <a href="imaginary.html">Imaginary or Dead Animals</a>
+                </div>
+        </li>
+        </ul>
+    </nav>
+    
+    <h2>Join Us for Our Upcoming Events</h2>
+    <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+                <div class="imageHolder">
+                    <img src="images/zoo1.png">1366X768
+                    <p class="captionText"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="images/zoo2.png">
+                    <p class="captionText"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="images/zoo3.jpg">
+                    <p class="captionText"></p>
+    
+                </div>
+                <div id="dotsContainer"></div>
+            </div>
+            <script src="main.js"></script>
+       
+    
+
+    <h2>Today</h2>
+        <p class = "center" id = "showDate">
+        </p>
+
+       
+        
+        <h2></h2>
+        <div class = "search"> 
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for List of Events....." title="Type event name">
+        
+                <ul id="myUL">
+                  <li><a href="#">Secret Santa</a></li>
+                  <li><a href="#">Elephant War</a></li>
+                  <li><a href="#">Dolphin Show</a></li>
+                  <li><a href="#">Monkey Dance</a></li>
+                  <li><a href="#">Richan HipHop</a></li>
+                  <li><a href="#">Rose Miss World</a></li>
+                  <li><a href="#">Rabbit Day</a></li>  
+                  <li><a href="#">Snake Dance</a></li>                
+                </ul>
+    </div>
+        
+   
+     
+        
+</div>
+</html>   
